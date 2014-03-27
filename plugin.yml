@@ -1,0 +1,8 @@
+name: AnvilCore
+version: 0.1 - Dev Build
+description: Anvil - AnvilCore
+
+author: Minefabser
+website: anvil-lab.de
+
+main: anvil.Minefabser.AnvilCore.AnvilMain

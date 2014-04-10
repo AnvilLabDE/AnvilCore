@@ -1,6 +1,5 @@
 package anvil.Minefabser.API.handler;
 
-import java.text.MessageFormat;
 import java.util.EnumMap;
 import java.util.Map;
 
@@ -28,7 +27,7 @@ public class ConsoleHandler {
 		// Workaround - Server könnte zwar Farben anzeigen, will aber nicht
 		message = convertColorToAnsi(message);
 		
-		Bukkit.getConsoleSender().sendMessage(MessageFormat.format(message, args));
+		Bukkit.getConsoleSender().sendMessage(_.format(message, args));
 	}
 	
 	/**
